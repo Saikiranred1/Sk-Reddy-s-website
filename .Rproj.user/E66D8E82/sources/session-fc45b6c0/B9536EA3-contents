@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "SK Reddy's website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about me.qmd
+        text: "About me"
+      - href: projects.qmd
+        text: "Projects"
+      - href: Jackiechan.qmd
+        text: "Future Purpose"
+
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
